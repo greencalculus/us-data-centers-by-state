@@ -99,11 +99,11 @@ def rows():
                 notes=f"Employees (week of 12 March 2023): {int(r['employees']):,}; Census noise flag {r['emp_noise_flag']}.")
 
     add(EPRI_BRIEF, source="EPRI", metric="electricity_share", geography="United States", value="4-5", unit="percent of US electricity",
-        status="estimate", as_of="2024", notes="'up from 4% to 5% today'; projected 9% to 17% by 2030.")
+        status="estimate", as_of="2026", notes="'up from 4% to 5% today' (EPRI 2026 report); projected 9% to 17% by 2030.")
     add(EPRI_BRIEF, source="EPRI", metric="electricity_share", geography="United States", value="9-17", unit="percent of US electricity",
         status="projection", as_of="2030", notes="'about 60% higher than EPRI projected in 2024'; 56 to 132 GW nominal IT capacity in 2030, up from 35-44 GW in 2024.")
     add(EPRI, source="EPRI", metric="electricity_share", geography="Virginia", state="VA", value=">25", unit="percent of state electricity",
-        status="estimate", as_of="2024", notes="'In several states, the share already exceeds 10%, with the highest concentration in Virginia, where the DC share exceeds 25%.'")
+        status="estimate", as_of="2026", notes="Current estimate in EPRI's 2026 report: 'In several states, the share already exceeds 10%, with the highest concentration in Virginia, where the DC share exceeds 25%.'")
     add(EPRI_BRIEF, source="EPRI", metric="electricity_share", geography="Virginia", state="VA", value="39-57", unit="percent of state electricity",
         status="projection", as_of="2030", notes="'Virginia is the only state today where data centers consume over 20% of electricity, increasing to 39-57% by 2030. In the Medium scenario, eight states exceed 20% shares by 2030.'")
 
