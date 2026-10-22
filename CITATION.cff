@@ -11,6 +11,7 @@ authors:
   - family-names: Say
     given-names: Jeremiah
     affiliation: "GreenCalculus"
+doi: "10.5281/zenodo.23557981"
 version: "2026.10.22"
 date-released: "2026-10-22"
 url: "https://greencalculus.com/data/data-centers-by-state/"

@@ -1,5 +1,7 @@
 # US Data Centers by State: Every Published Count
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23557981.svg)](https://doi.org/10.5281/zenodo.23557981)
+
 There is no official count of US data centers. This dataset puts every published count we could verify side by side, by state, with what each source counts and the date it describes, plus the electricity, water and Virginia figures that go with them.
 
 - **128 rows** from Data Center Map (via Pew Research), dcmap.us, Visual Capitalist (via the Washington Examiner), the US Census Bureau, EPRI, Lawrence Berkeley National Laboratory, JLARC and Google.
